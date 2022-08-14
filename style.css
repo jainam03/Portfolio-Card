@@ -1,0 +1,61 @@
+body {
+    padding: 2px;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    background: url("./pexels-sabrina-gelbart-249798.jpg");
+    background-size:contain ;
+
+    text-align: center;
+
+    color: yellow;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-div {
+
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-card {
+    text-align: center;
+
+    width: 500px;
+    height: 700px;
+
+    border: 2px solid white;
+    border-radius: 1rem;
+
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(2px);
+
+    color: greenyellow;
+
+    font-weight: lighter;
+}
+
+/* .div-card > h3 {
+    text-align: left;
+
+    padding-left: 25px;
+    padding-right: 25px;
+} */
+
+a {
+    color: white;
+}
+
+#profile-img {
+    border-radius: 50%;
+
+    margin-top: 15px;
+}
+
+.icons {
+    word-spacing: 10px;
+}
